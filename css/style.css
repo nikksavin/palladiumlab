@@ -1,0 +1,49 @@
+/* Main styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: lightgrey;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.progressbar {
+    margin-top: 25%;
+    margin-left: 18%;
+    margin-right: 23%;
+}
+
+.progressbar__line {
+    background-color: red;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.progressbar__line-bg {
+    position: relative;
+    background: #000;
+    height: 70px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #000;
+}
+
+#progressbar__label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
