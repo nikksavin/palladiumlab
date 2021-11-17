@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         function progressStatus() {
             if (startWidth >= 100) {
-                clearInterval(id); // остановить дальгейшее выполнение функции 
+                clearInterval(id); // остановить выполнение функции после 100%
             } else {
                 startWidth++;
                 elem.style.width = startWidth + '%';
